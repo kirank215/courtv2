@@ -4,7 +4,7 @@ This application filters information with the lawyer name, for the causelists fr
 The work is currently in progress.
 
 ## Improvements from version1
--> Not restricted on names or dates.\
+-> Not restricted on names or date.\
 -> Can provide notifications
 
 ## How does it look like?
