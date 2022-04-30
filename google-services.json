@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "840626152248",
+    "project_id": "court-c5f4e",
+    "storage_bucket": "court-c5f4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840626152248:android:7d9b310a7ca2e14ec397cd",
+        "android_client_info": {
+          "package_name": "com.example.courtday"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840626152248-5hmq5s3mjaff03er6un1hmptb0b8401e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa9v1-7LyTxMEG4wI0yLvTd34KnaG0hpo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "840626152248-5hmq5s3mjaff03er6un1hmptb0b8401e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

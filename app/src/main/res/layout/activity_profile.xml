@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+
+    <TextView
+        android:id="@+id/textHeading"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:fontFamily="@font/bangers"
+        android:text="COURT TODAY"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/rl_info"
+        app:layout_constraintEnd_toStartOf="@+id/editButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.597" />
+
+    <Button
+        android:id="@+id/editButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/edit"
+        android:hint="tt"
+        app:layout_constraintBottom_toTopOf="@+id/rl_info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.848"
+        app:layout_constraintStart_toStartOf="@+id/rl_info"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.554" />
+
+    <RelativeLayout
+        android:id="@+id/rl_info"
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/details_bg"
+        app:layout_constraintBottom_toTopOf="@+id/btn_today"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <TextView
+            android:layout_width="175dp"
+            android:layout_height="75dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:fontFamily="sans-serif"
+            android:text="Searching for"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_searchname"
+            android:layout_width="175dp"
+            android:layout_height="75dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:fontFamily="sans-serif"
+            android:paddingStart="10dp"
+            android:text="--name here--"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="75dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_detail1"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:fontFamily="sans-serif"
+                    android:paddingLeft="10dp"
+                    android:text="Judge"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_detail1.1"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:fontFamily="sans-serif"
+                    android:paddingLeft="40dp"
+                    android:text="Judge info"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_detail2"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:fontFamily="sans-serif"
+                    android:paddingLeft="10dp"
+                    android:text="Court "
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_detail2.1"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:fontFamily="sans-serif"
+                    android:paddingLeft="40dp"
+                    android:text="Court info"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_detail3"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:fontFamily="sans-serif"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="0dp"
+                    android:text="Case"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_detail3.1"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:fontFamily="sans-serif"
+                    android:paddingStart="40dp"
+                    android:paddingEnd="0dp"
+                    android:text="Case Name + ID"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_detail4"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:fontFamily="sans-serif"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="0dp"
+                    android:text="Time"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_detail4.1"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:fontFamily="sans-serif"
+                    android:paddingStart="40dp"
+                    android:paddingEnd="0dp"
+                    android:text="Date + time"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_detail5"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:fontFamily="sans-serif"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="0dp"
+                    android:text="Other"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_detail5.1"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:fontFamily="sans-serif"
+                    android:paddingStart="40dp"
+                    android:paddingEnd="0dp"
+                    android:text="Other info"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/button_bg"
+        app:layout_constraintBottom_toTopOf="@+id/btn_search"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rl_info"
+        app:layout_constraintVertical_bias="0.777" />
+
+    <ToggleButton
+        android:id="@+id/btn_tomorrow"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/button2_bg"
+        android:textOff="TOMORROW"
+        android:textOn="TOMORROW"
+        app:layout_constraintBottom_toTopOf="@+id/btn_search"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toEndOf="@+id/btn_today" />
+
+    <ToggleButton
+        android:id="@+id/btn_today"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="12dp"
+        android:textOff="TODAY"
+        android:textOn="TODAY"
+        android:background="@drawable/button2_bg"
+
+        app:layout_constraintEnd_toStartOf="@id/btn_tomorrow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btn_search"
+        tools:layout_editor_absoluteY="535dp" />
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="175dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_bg"
+        android:text="search"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
