@@ -11,5 +11,5 @@ The work is currently in progress.
 ![Walkthrough Gif](app/gifs/walkthrough.gif)
 
 
-## Previous versions for context
+## Previous versions
 Also look at [Version 0](https://github.com/kirank215/courtv0) and [Version 1](https://github.com/kirank215/courtv1) for context.
