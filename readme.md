@@ -7,8 +7,9 @@ The work is currently in progress.
 -> Not restricted on names or dates.\
 -> Can provide notifications
 
+## How does it look like?
 ![Walkthrough Gif](app/gifs/walkthrough.gif)
 
 
-
+## Previous versions for context
 Also look at [Version 0](https://github.com/kirank215/courtv0) and [Version 1](https://github.com/kirank215/courtv1) for context.
